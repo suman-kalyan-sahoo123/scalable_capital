@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "scalable-assignment"
+version = "0.1.0"
+description = ""
+authors = ["suman-zenjob-data <suman.sahoo@zenjob.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pandas = "^2.2.1"
+duckdb = "^0.10.1"
+logging = "^0.4.9.6"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
